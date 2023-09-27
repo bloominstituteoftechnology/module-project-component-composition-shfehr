@@ -18,12 +18,12 @@ This is a really fun project, and one to show your family and friends when you'v
 
 ### Task 1: Setup
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm run dev`
-- [ ] Implement the project on the `main` branch, committing changes regularly.
-- [ ] Push commits: `git push origin main`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository in your terminal
+- [x] Download project dependencies by running `npm install`
+- [x] Start up the app using `npm run dev`
+- [x] Implement the project on the `main` branch, committing changes regularly.
+- [x] Push commits: `git push origin main`.
 
 ### Task 2: Planning
 
@@ -38,12 +38,12 @@ This is a really fun project, and one to show your family and friends when you'v
 
 ## Task 4: Fetching the data
 
-- [ ] Inside `frontend/components/App.js` add state for the data you'll get from NASA.
-- [ ] Add an effect hook to handle the API call side effect after the first render of App.
-- [ ] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and learn how to make the API call.
-- [ ] Using the endpoint given in the docs, fetch the data using `axios`, which is already installed in the project.
-- [ ] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
-- [ ] Before you add your data to state, make sure your effect hook has a dependencies array. Otherwise, you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to request a real API key.**
+- [x] Inside `frontend/components/App.js` add state for the data you'll get from NASA.
+- [x] Add an effect hook to handle the API call side effect after the first render of App.
+- [x] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and learn how to make the API call.
+- [x] Using the endpoint given in the docs, fetch the data using `axios`, which is already installed in the project.
+- [x] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
+- [x] Before you add your data to state, make sure your effect hook has a dependencies array. Otherwise, you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to request a real API key.**
 
 **Notes on the NASA API**
 
@@ -59,8 +59,8 @@ This is a really fun project, and one to show your family and friends when you'v
 
 ## Task 5: Consuming the data
 
-- [ ] Once you have made the call correctly, and logged the data, add the data to the state property you built.
-- [ ] Build out your other components. Compose your UI, and then pass the data to your children components via props so you can render it on the DOM.
+- [x] Once you have made the call correctly, and logged the data, add the data to the state property you built.
+- [x] Build out your other components. Compose your UI, and then pass the data to your children components via props so you can render it on the DOM.
 
 **Pro Tips**
 
